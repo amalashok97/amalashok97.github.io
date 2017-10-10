@@ -452,16 +452,19 @@ ul li p{
 
 .fh5co-testimonial {
   padding: 1em 0;
-  width: 100%;
+  max-width: 100%;
   background-size: cover;
-  background-image: url("/images/ajo.JPG");
+  background-image: url("../images/ajo.JPG");
   background-repeat: no-repeat;
   border-radius: 10px;
-  height: 500px;
 }
+
+
+
 @media screen and (max-width: 768px) {
   .fh5co-testimonial {
     padding: 1em 0;
+  background-size: contain;
   }
 
   .quote{
