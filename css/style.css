@@ -430,7 +430,7 @@ ul li p{
   font-weight: bold;
   font-size: 49px;
   padding-left: 20px;
-  margin-top: 200px;
+  float: left;
 }
 
 .tooltip-box {
@@ -454,7 +454,7 @@ ul li p{
   padding: 1em 0;
   max-width: 100%;
   background-size: cover;
-  background-image: url("../images/ajo.JPG");
+  background-image: url("/images/ajo.JPG");
   background-repeat: no-repeat;
   border-radius: 10px;
 }
@@ -464,15 +464,40 @@ ul li p{
 @media screen and (max-width: 768px) {
   .fh5co-testimonial {
     padding: 1em 0;
-  background-size: contain;
+  background-size: cover;
+    height: 220px;
+    background-image: url('/images/ajom.jpg');
   }
 
+  .candidate_name {
+    font-size: 30px;
+  }
   .quote{
 
     float: left !important;
   }
 
 }
+
+@media screen and (min-width: 768px) {
+  .fh5co-testimonial {
+    padding: 1em 0;
+  background-size: cover;
+    height: 320px;
+    background-image: url('/images/ajom.jpg');
+  }
+
+  .candidate_name {
+    font-size: 30px;
+  }
+  .quote{
+
+    float: left !important;
+  }
+
+}
+
+
 .fh5co-testimonial .item {
   color: white;
   padding-left: 1em;
